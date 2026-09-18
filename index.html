@@ -1,0 +1,2707 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mais de 300 Livros Digitais em PDF</title>
+
+<meta
+  name="description"
+  content="Tenha acesso a mais de 300 livros digitais em PDF por apenas R$ 14,90."
+>
+
+<style>
+
+:root{
+  --black:#050607;
+  --black2:#111418;
+  --navy:#082d4f;
+  --navy2:#0d426f;
+  --blue:#69bdf5;
+  --blue-soft:#0c1a26;
+  --white:#ffffff;
+
+  --red:#ef3038;
+  --red-dark:#b9141c;
+
+  --green:#1f8f53;
+
+  --bg:#050505;
+  --text:#ffffff;
+  --muted:#b8c0c8;
+  --line:#262a2f;
+
+  --shadow:0 18px 46px rgba(0,0,0,.34);
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  font-family:
+  Inter,
+  -apple-system,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  Arial,
+  sans-serif;
+
+  background:#050505;
+  color:#ffffff;
+  line-height:1.55;
+  overflow-x:hidden;
+}
+
+img{
+  display:block;
+  width:100%;
+}
+
+a{
+  color:inherit;
+  text-decoration:none;
+}
+
+button{
+  font:inherit;
+}
+
+.container{
+  width:min(calc(100% - 32px),1080px);
+  margin:auto;
+}
+
+.section{
+  padding:62px 0;
+}
+
+
+/* =====================================================
+   TYPOGRAPHY
+===================================================== */
+
+.eyebrow{
+  display:inline-block;
+
+  margin-bottom:10px;
+
+  color:#2e86c5;
+
+  font-size:12px;
+  font-weight:900;
+
+  letter-spacing:1.2px;
+  text-transform:uppercase;
+}
+
+.title{
+  color:#ffffff;
+
+  font-size:clamp(30px,7vw,50px);
+  line-height:1.08;
+
+  letter-spacing:-1.3px;
+  font-weight:900;
+}
+
+.subtitle{
+  max-width:730px;
+
+  margin-top:16px;
+
+  color:var(--muted);
+
+  font-size:16px;
+  line-height:1.7;
+}
+
+
+/* =====================================================
+   HERO — SIMPLES / FORTE
+===================================================== */
+
+.hero{
+  background:#050505;
+  color:white;
+
+  padding:48px 0 58px;
+
+  text-align:center;
+}
+
+.hero-mini{
+  margin-bottom:14px;
+
+  color:var(--blue);
+
+  font-size:11px;
+  font-weight:900;
+
+  letter-spacing:2.4px;
+  text-transform:uppercase;
+}
+
+.hero h1{
+  max-width:760px;
+
+  margin:auto;
+
+  color:white;
+
+  font-size:clamp(45px,11vw,78px);
+  line-height:.96;
+
+  letter-spacing:-2.7px;
+  font-weight:950;
+}
+
+.hero h1 span{
+  color:var(--blue);
+}
+
+.hero-subtitle{
+  max-width:620px;
+
+  margin:18px auto 0;
+
+  color:#aeb5bc;
+
+  font-size:15px;
+}
+
+
+/* HERO IMAGE */
+
+.hero-image{
+  width:100%;
+  max-width:520px;
+
+  aspect-ratio:1 / 1;
+
+  margin:32px auto 0;
+
+  overflow:hidden;
+
+  background:#111;
+
+  border:1px solid #24272b;
+}
+
+.hero-image img{
+  width:100%;
+  height:100%;
+
+  object-fit:cover;
+}
+
+
+/* HERO INFO */
+
+.hero-info{
+  max-width:650px;
+
+  margin:32px auto 0;
+
+  text-align:left;
+}
+
+.hero-info h2{
+  color:#fff;
+
+  font-size:23px;
+  line-height:1.3;
+  font-weight:900;
+}
+
+.hero-info p{
+  margin-top:13px;
+
+  color:#aeb4bb;
+
+  font-size:15px;
+  line-height:1.7;
+}
+
+.hero-benefits{
+  margin-top:25px;
+
+  border-top:1px solid #25292e;
+}
+
+.hero-benefits div{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+
+  gap:15px;
+
+  padding:15px 0;
+
+  border-bottom:1px solid #25292e;
+}
+
+.hero-benefits strong{
+  color:var(--blue);
+
+  font-size:15px;
+}
+
+.hero-benefits span{
+  color:white;
+
+  font-size:13px;
+
+  text-align:right;
+}
+
+
+/* =====================================================
+   CTA
+===================================================== */
+
+.cta{
+  width:100%;
+  max-width:520px;
+
+  min-height:61px;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  padding:15px 20px;
+
+  border:0;
+  border-radius:9px;
+
+  background:
+  linear-gradient(
+    180deg,
+    #8bd3ff,
+    #5ab8f2
+  );
+
+  color:#06111b;
+
+  font-size:14px;
+  font-weight:950;
+
+  text-align:center;
+  text-transform:uppercase;
+
+  box-shadow:
+  0 13px 30px rgba(90,184,242,.25);
+
+  animation:pulseCTA 1.8s infinite;
+
+  cursor:pointer;
+}
+
+.hero .cta{
+  margin:28px auto 0;
+}
+
+@keyframes pulseCTA{
+
+  0%{
+    box-shadow:
+    0 0 0 0 rgba(90,184,242,.38),
+    0 13px 30px rgba(90,184,242,.25);
+  }
+
+  70%{
+    box-shadow:
+    0 0 0 12px rgba(90,184,242,0),
+    0 13px 30px rgba(90,184,242,.25);
+  }
+
+  100%{
+    box-shadow:
+    0 0 0 0 rgba(90,184,242,0),
+    0 13px 30px rgba(90,184,242,.25);
+  }
+}
+
+
+/* =====================================================
+   ENTENDA O PRODUTO
+===================================================== */
+
+.what{
+  background:#050505;
+}
+
+.what-grid{
+  margin-top:32px;
+
+  display:grid;
+  gap:13px;
+}
+
+.what-item{
+  display:flex;
+  gap:14px;
+
+  padding:18px;
+
+  background:#0f1114;
+
+  border:1px solid var(--line);
+  border-radius:11px;
+}
+
+.what-number{
+  flex:0 0 38px;
+
+  width:38px;
+  height:38px;
+
+  display:grid;
+  place-items:center;
+
+  border-radius:50%;
+
+  background:var(--navy);
+
+  color:white;
+
+  font-size:12px;
+  font-weight:900;
+}
+
+.what-item h3{
+  color:#ffffff;
+
+  font-size:16px;
+  font-weight:900;
+}
+
+.what-item p{
+  margin-top:5px;
+
+  color:var(--muted);
+
+  font-size:13px;
+}
+
+
+/* =====================================================
+   BOOKS
+===================================================== */
+
+.books{
+  background:#0a0a0a;
+}
+
+.books-grid{
+  width:100%;
+  max-width:760px;
+
+  margin:34px auto 0;
+
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+
+  gap:14px;
+}
+
+.book-card{
+  overflow:hidden;
+
+  background:#050505;
+
+  border:1px solid #d9e2e9;
+  border-radius:9px;
+
+  box-shadow:
+  0 7px 20px rgba(0,35,70,.07);
+
+  transition:
+  transform .25s ease,
+  box-shadow .25s ease,
+  border-color .25s ease;
+}
+
+.book-card:hover,
+.book-card.active-touch{
+  transform:
+  translateY(-8px)
+  scale(1.018);
+
+  border-color:#71b5e7;
+
+  box-shadow:
+  0 19px 36px rgba(0,35,70,.15);
+}
+
+.book-cover{
+  position:relative;
+
+  aspect-ratio:2/3;
+
+  overflow:hidden;
+
+  background:#111418;
+}
+
+.book-cover img{
+  width:100%;
+  height:100%;
+
+  object-fit:cover;
+
+  transition:transform .3s ease;
+}
+
+.book-card:hover img,
+.book-card.active-touch img{
+  transform:scale(1.035);
+}
+
+
+/* placeholder visible before URL inserted */
+
+.book-cover::before{
+  content:"ADICIONE A CAPA";
+
+  position:absolute;
+  inset:0;
+
+  display:grid;
+  place-items:center;
+
+  padding:20px;
+
+  color:#aeb6be;
+
+  background:
+  linear-gradient(
+    145deg,
+    #eef3f6,
+    #0c0e11
+  );
+
+  font-size:11px;
+  font-weight:900;
+
+  letter-spacing:1px;
+
+  text-align:center;
+}
+
+.book-cover img{
+  position:relative;
+  z-index:2;
+}
+
+
+.book-info{
+  min-height:94px;
+
+  padding:13px;
+}
+
+.book-info h3{
+  color:#ffffff;
+
+  font-size:14px;
+  line-height:1.25;
+
+  font-weight:900;
+}
+
+.book-info p{
+  margin-top:5px;
+
+  color:#aeb6be;
+
+  font-size:11px;
+}
+
+
+/* =====================================================
+   EXPLANATION
+===================================================== */
+
+.explain{
+  background:#050505;
+}
+
+.explain-block{
+  margin-top:30px;
+
+  display:grid;
+  gap:17px;
+}
+
+.explain-text{
+  padding:22px;
+
+  background:var(--blue-soft);
+
+  border-left:4px solid var(--blue);
+
+  border-radius:9px;
+}
+
+.explain-text h3{
+  color:var(--navy);
+
+  font-size:19px;
+}
+
+.explain-text p{
+  margin-top:8px;
+
+  color:#c4c9cf;
+
+  font-size:14px;
+  line-height:1.7;
+}
+
+
+/* =====================================================
+   PROCESS
+===================================================== */
+
+.process{
+  background:#0b0d10;
+}
+
+.steps{
+  margin-top:34px;
+
+  display:grid;
+  gap:12px;
+}
+
+.step{
+  display:flex;
+
+  gap:15px;
+
+  padding:19px;
+
+  background:#050505;
+
+  border:1px solid var(--line);
+  border-radius:11px;
+}
+
+.step-number{
+  flex:0 0 41px;
+
+  width:41px;
+  height:41px;
+
+  display:grid;
+  place-items:center;
+
+  border-radius:50%;
+
+  background:var(--navy);
+
+  color:white;
+
+  font-size:13px;
+  font-weight:900;
+}
+
+.step h3{
+  color:#ffffff;
+
+  font-size:16px;
+}
+
+.step p{
+  margin-top:5px;
+
+  color:var(--muted);
+
+  font-size:13px;
+}
+
+
+/* =====================================================
+   ACCESS
+===================================================== */
+
+.access{
+  background:#050505;
+}
+
+.access-panel{
+  margin-top:30px;
+
+  padding:26px 20px;
+
+  background:
+  linear-gradient(
+    135deg,
+    var(--navy),
+    var(--navy2)
+  );
+
+  color:white;
+
+  border-radius:15px;
+
+  box-shadow:var(--shadow);
+}
+
+.access-panel h3{
+  font-size:22px;
+}
+
+.access-panel p{
+  margin-top:10px;
+
+  color:#dbe9f3;
+
+  font-size:14px;
+  line-height:1.7;
+}
+
+.access-details{
+  margin-top:22px;
+
+  display:grid;
+  gap:10px;
+}
+
+.access-row{
+  padding:14px;
+
+  background:rgba(255,255,255,.08);
+
+  border:1px solid rgba(255,255,255,.13);
+
+  border-radius:8px;
+}
+
+.access-row strong{
+  display:block;
+
+  color:#9cd4fa;
+
+  font-size:13px;
+}
+
+.access-row span{
+  display:block;
+
+  margin-top:4px;
+
+  color:#d8e5ef;
+
+  font-size:12px;
+}
+
+
+/* =====================================================
+   PAYMENT
+===================================================== */
+
+.payment-info{
+  background:#090b0d;
+}
+
+.payment-box{
+  margin-top:30px;
+
+  padding:25px 20px;
+
+  background:#050505;
+
+  border:1px solid var(--line);
+  border-radius:14px;
+
+  box-shadow:var(--shadow);
+}
+
+.payment-box h3{
+  color:#ffffff;
+
+  font-size:21px;
+}
+
+.payment-box p{
+  margin-top:9px;
+
+  color:var(--muted);
+
+  font-size:14px;
+}
+
+.payment-flow{
+  margin-top:21px;
+
+  border-top:1px solid var(--line);
+}
+
+.payment-row{
+  display:flex;
+
+  gap:12px;
+
+  padding:15px 0;
+
+  border-bottom:1px solid var(--line);
+}
+
+.payment-row strong{
+  min-width:25px;
+
+  color:var(--navy);
+}
+
+.payment-row span{
+  color:#c4c9cf;
+
+  font-size:13px;
+}
+
+
+/* =====================================================
+   CONFIDENCE
+===================================================== */
+
+.confidence{
+  background:#050505;
+}
+
+.confidence-grid{
+  margin-top:32px;
+
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+
+  gap:11px;
+}
+
+.confidence-item{
+  padding:17px 14px;
+
+  background:#111418;
+
+  border:1px solid var(--line);
+
+  border-radius:9px;
+}
+
+.confidence-item strong{
+  display:block;
+
+  color:#ffffff;
+
+  font-size:13px;
+}
+
+.confidence-item span{
+  display:block;
+
+  margin-top:5px;
+
+  color:var(--muted);
+
+  font-size:11px;
+}
+
+
+/* =====================================================
+   OFFER
+===================================================== */
+
+.offer{
+  background:#0b0d10;
+}
+
+.offer-card{
+  max-width:720px;
+
+  margin:auto;
+
+  padding:35px 22px;
+
+  background:#0c1a26;
+
+  border:1px solid #69bdf5;
+  border-radius:18px;
+
+  box-shadow:
+  0 18px 55px rgba(0,35,70,.10);
+
+  text-align:center;
+}
+
+.offer-top{
+  color:#8bd3ff;
+
+  font-size:11px;
+  font-weight:900;
+
+  letter-spacing:1.2px;
+  text-transform:uppercase;
+}
+
+.offer-card h2{
+  margin-top:8px;
+
+  color:#ffffff;
+
+  font-size:31px;
+  line-height:1.1;
+}
+
+.offer-description{
+  max-width:520px;
+
+  margin:12px auto 0;
+
+  color:var(--muted);
+
+  font-size:14px;
+}
+
+.price-label{
+  margin-top:28px;
+
+  color:#aeb6be;
+
+  font-size:13px;
+}
+
+.price{
+  margin-top:2px;
+
+  color:#8bd3ff;
+
+  font-size:70px;
+  line-height:1;
+
+  font-weight:950;
+
+  letter-spacing:-4px;
+}
+
+.price small{
+  font-size:23px;
+  letter-spacing:0;
+}
+
+.single-payment{
+  display:inline-block;
+
+  margin-top:12px;
+
+  padding:7px 12px;
+
+  background:#0f2b1d;
+
+  border:1px solid #235f3c;
+
+  color:#8ce0ad;
+
+  border-radius:100px;
+
+  font-size:11px;
+  font-weight:900;
+}
+
+.offer-items{
+  max-width:520px;
+
+  margin:25px auto;
+
+  text-align:left;
+}
+
+.offer-item{
+  padding:11px 0;
+
+  color:#d0d4d8;
+
+  font-size:13px;
+
+  border-bottom:1px solid var(--line);
+}
+
+.offer-item::before{
+  content:"✓";
+
+  margin-right:9px;
+
+  color:var(--green);
+
+  font-weight:900;
+}
+
+
+/* =====================================================
+   AFTER PAYMENT
+===================================================== */
+
+.after{
+  background:#050505;
+}
+
+.timeline{
+  margin-top:31px;
+
+  padding-left:20px;
+
+  border-left:2px solid #b9cfe1;
+}
+
+.timeline-item{
+  position:relative;
+
+  padding:0 0 29px 9px;
+}
+
+.timeline-item:last-child{
+  padding-bottom:0;
+}
+
+.timeline-item::before{
+  content:"";
+
+  position:absolute;
+
+  width:11px;
+  height:11px;
+
+  left:-26px;
+  top:5px;
+
+  border-radius:50%;
+
+  background:var(--blue);
+
+  box-shadow:
+  0 0 0 5px #e9f3fb;
+}
+
+.timeline-item h3{
+  color:#ffffff;
+
+  font-size:16px;
+}
+
+.timeline-item p{
+  margin-top:5px;
+
+  color:var(--muted);
+
+  font-size:13px;
+}
+
+
+/* =====================================================
+   SUPPORT
+===================================================== */
+
+.support{
+  background:#090b0d;
+}
+
+.support-box{
+  padding:25px 20px;
+
+  background:#050505;
+
+  border:1px solid var(--line);
+  border-radius:14px;
+}
+
+.support-box h3{
+  color:#ffffff;
+
+  font-size:20px;
+}
+
+.support-box p{
+  margin-top:8px;
+
+  color:var(--muted);
+
+  font-size:14px;
+  line-height:1.7;
+}
+
+
+/* =====================================================
+   FAQ — FINAL SECTION
+===================================================== */
+
+.faq-section{
+  padding-bottom:90px;
+
+  background:
+  linear-gradient(
+    180deg,
+    #0d2335,
+    #07141f
+  );
+
+  color:white;
+}
+
+.faq-section .title{
+  color:white;
+}
+
+.faq-section .subtitle{
+  color:#bdcad5;
+}
+
+.faq-section .eyebrow{
+  color:#78c8ff;
+}
+
+.faq{
+  margin-top:35px;
+
+  border-top:
+  1px solid rgba(255,255,255,.14);
+}
+
+.faq-item{
+  border-bottom:
+  1px solid rgba(255,255,255,.14);
+}
+
+.faq-question{
+  width:100%;
+
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+
+  gap:15px;
+
+  padding:20px 0;
+
+  border:0;
+
+  background:none;
+
+  color:white;
+
+  font-size:15px;
+  font-weight:850;
+
+  text-align:left;
+
+  cursor:pointer;
+}
+
+.faq-question span{
+  color:#78c8ff;
+
+  font-size:24px;
+}
+
+.faq-answer{
+  max-height:0;
+
+  overflow:hidden;
+
+  transition:max-height .3s ease;
+}
+
+.faq-answer p{
+  padding:0 32px 19px 0;
+
+  color:#c6d1da;
+
+  font-size:13px;
+  line-height:1.7;
+}
+
+.faq-item.open .faq-answer{
+  max-height:320px;
+}
+
+
+/* =====================================================
+   STICKY
+===================================================== */
+
+.sticky{
+  position:fixed;
+
+  z-index:999;
+
+  left:0;
+  right:0;
+  bottom:0;
+
+  padding:9px 12px;
+
+  background:rgba(5,5,5,.96);
+
+  border-top:1px solid #25292e;
+
+  backdrop-filter:blur(8px);
+}
+
+.sticky .cta{
+  max-width:none;
+
+  min-height:52px;
+
+  font-size:13px;
+}
+
+
+/* =====================================================
+   DESKTOP
+===================================================== */
+
+@media(min-width:760px){
+
+  .section{
+    padding:85px 0;
+  }
+
+  .hero{
+    padding:75px 0;
+  }
+
+  .what-grid{
+    grid-template-columns:
+    repeat(2,1fr);
+  }
+
+  /* ALWAYS 2 PER ROW */
+  .books-grid{
+    grid-template-columns:
+    repeat(2,minmax(0,1fr));
+
+    max-width:720px;
+
+    gap:20px;
+  }
+
+  .steps{
+    grid-template-columns:
+    repeat(2,1fr);
+  }
+
+  .access-details{
+    grid-template-columns:
+    repeat(2,1fr);
+  }
+
+  .confidence-grid{
+    grid-template-columns:
+    repeat(4,1fr);
+  }
+
+  .sticky{
+    display:none;
+  }
+
+}
+
+
+/* =====================================================
+   DARK THEME OVERRIDES — fundo preto / texto branco
+===================================================== */
+body, .what, .explain, .access, .confidence, .after {
+  background:#050505;
+  color:#ffffff;
+}
+.books, .process, .payment-info, .offer, .support {
+  background:#0a0c0f;
+}
+.title, .what-item h3, .explain-text h3, .step h3, .payment-box h3,
+.confidence-item strong, .offer-card h2, .timeline-item h3, .support-box h3,
+.book-info h3 {
+  color:#ffffff;
+}
+.subtitle, .what-item p, .explain-text p, .step p, .payment-box p,
+.payment-row span, .confidence-item span, .offer-description, .offer-item,
+.timeline-item p, .support-box p, .book-info p {
+  color:#b8c0c8;
+}
+.what-item, .step, .payment-box, .confidence-item, .support-box, .book-card {
+  background:#0f1114;
+  border-color:#262a2f;
+}
+.explain-text {
+  background:#0c1a26;
+  border-left-color:#69bdf5;
+}
+.offer-card {
+  background:#0c1a26;
+  border-color:#69bdf5;
+}
+.offer-item {
+  border-bottom-color:#25313a;
+}
+.payment-flow, .payment-row {
+  border-color:#262a2f;
+}
+.book-cover::before {
+  color:#aeb6be;
+  background:linear-gradient(145deg,#13171b,#0b0d10);
+}
+.single-payment {
+  background:#0f2b1d;
+  border-color:#235f3c;
+  color:#8ce0ad;
+}
+.sticky {
+  background:rgba(5,5,5,.96);
+  border-top-color:#25292e;
+}
+
+/* =====================================================
+   FEEDBACKS ILUSTRATIVOS
+===================================================== */
+.feedbacks{background:#050505;}
+.feedback-note{margin-top:10px;color:#8f98a1;font-size:11px;}
+.feedback-grid{display:grid;gap:14px;margin-top:30px;}
+.feedback-card{padding:18px;background:#0f1114;border:1px solid #262a2f;border-radius:12px;}
+.feedback-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;}
+.feedback-name{font-weight:900;color:#fff;font-size:14px;}
+.feedback-date{color:#8f98a1;font-size:11px;white-space:nowrap;}
+.feedback-stars{margin-top:8px;color:#ffd166;letter-spacing:2px;font-size:14px;}
+.feedback-text{margin-top:10px;color:#c8ced4;font-size:13px;line-height:1.65;}
+.feedback-tag{display:inline-block;margin-top:10px;color:#8bd3ff;font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.8px;}
+@media(min-width:760px){.feedback-grid{grid-template-columns:repeat(2,1fr);}}
+
+</style>
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section class="hero">
+
+<div class="container">
+
+  <div class="hero-mini">
+    SUA BIBLIOTECA DIGITAL
+  </div>
+
+  <h1>
+    MAIS DE <span>300 LIVROS</span><br>
+    DIGITAIS EM PDF
+  </h1>
+
+  <p class="hero-subtitle">
+    Uma biblioteca inteira na palma da sua mão.
+  </p>
+
+
+  <!-- TROQUE SOMENTE A URL ABAIXO -->
+
+  <div class="hero-image">
+
+    <img
+      src="https://i.imgur.com/R1Za8bQ.png"
+      alt="Pack com mais de 300 livros digitais"
+    >
+
+  </div>
+
+
+  <div class="hero-info">
+
+    <h2>
+      Mais de 300 livros digitais prontos
+      para você escolher, baixar e começar a ler.
+    </h2>
+
+    <p>
+      Tenha acesso a uma coleção completa de literatura,
+      filosofia, poesia, romances e grandes clássicos
+      reunidos em um único lugar.
+    </p>
+
+
+    <div class="hero-benefits">
+
+      <div>
+        <strong>+300</strong>
+        <span>livros digitais</span>
+      </div>
+
+      <div>
+        <strong>PDF</strong>
+        <span>arquivos para download</span>
+      </div>
+
+      <div>
+        <strong>Vitalício</strong>
+        <span>sem mensalidade</span>
+      </div>
+
+      <div>
+        <strong>R$ 14,90</strong>
+        <span>pagamento único</span>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <a
+    href="#oferta"
+    class="cta"
+  >
+    QUERO TER ACESSO AO PACK
+  </a>
+
+</div>
+
+</section>
+
+
+
+<!-- =====================================================
+     ENTENDA O PRODUTO
+===================================================== -->
+
+<section class="section what">
+
+<div class="container">
+
+  <span class="eyebrow">
+    Entenda o produto
+  </span>
+
+  <h2 class="title">
+    O que exatamente você está adquirindo?
+  </h2>
+
+  <p class="subtitle">
+    Você não está comprando apenas um livro.
+    Está adquirindo acesso a um acervo com mais de
+    300 títulos digitais organizados para facilitar
+    sua leitura e seus downloads.
+  </p>
+
+
+  <div class="what-grid">
+
+    <div class="what-item">
+
+      <div class="what-number">1</div>
+
+      <div>
+
+        <h3>Mais de 300 títulos</h3>
+
+        <p>
+          Uma seleção com obras de diferentes autores,
+          gêneros e períodos da literatura.
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <div class="what-item">
+
+      <div class="what-number">2</div>
+
+      <div>
+
+        <h3>Livros digitais em PDF</h3>
+
+        <p>
+          Acesse pelo celular, tablet ou computador
+          e baixe os títulos desejados.
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <div class="what-item">
+
+      <div class="what-number">3</div>
+
+      <div>
+
+        <h3>Conteúdo organizado</h3>
+
+        <p>
+          Você recebe um link onde poderá encontrar
+          e acessar os livros disponíveis.
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <div class="what-item">
+
+      <div class="what-number">4</div>
+
+      <div>
+
+        <h3>Pagamento único</h3>
+
+        <p>
+          Você paga uma única vez e não precisa
+          manter uma assinatura mensal.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+</section>
+
+
+
+<!-- =====================================================
+     BOOKS
+===================================================== -->
+
+<section class="section books">
+
+<div class="container">
+
+  <span class="eyebrow">
+    Alguns títulos do Pack
+  </span>
+
+  <h2 class="title">
+    Conheça alguns dos livros disponíveis
+  </h2>
+
+  <p class="subtitle">
+    Escolhemos alguns dos títulos mais reconhecidos
+    do acervo para você conhecer.
+    O Pack completo possui mais de 300 livros.
+  </p>
+
+
+  <div class="books-grid">
+
+
+    <!-- LIVRO 1 -->
+
+    <article class="book-card">
+
+      <div class="book-cover">
+
+        <img
+          src="https://i.imgur.com/vgQEyCu.png"
+          alt="A Divina Comédia"
+        >
+
+      </div>
+
+      <div class="book-info">
+
+        <h3>A Divina Comédia</h3>
+
+        <p>Dante Alighieri</p>
+
+      </div>
+
+    </article>
+
+
+    <!-- LIVRO 2 -->
+
+    <article class="book-card">
+
+      <div class="book-cover">
+
+        <img
+          src="https://i.imgur.com/WHkcgNg.png"
+          alt="Ulysses"
+        >
+
+      </div>
+
+      <div class="book-info">
+
+        <h3>Ulysses</h3>
+
+        <p>James Joyce</p>
+
+      </div>
+
+    </article>
+
+
+    <!-- LIVRO 3 -->
+
+    <article class="book-card">
+
+      <div class="book-cover">
+
+        <img
+          src="https://i.imgur.com/H1uY9fw.png"
+          alt="O Alienista"
+        >
+
+      </div>
+
+      <div class="book-info">
+
+        <h3>O Alienista</h3>
+
+        <p>Machado de Assis</p>
+
+      </div>
+
+    </article>
+
+
+    <!-- LIVRO 4 -->
+
+    <article class="book-card">
+
+      <div class="book-cover">
+
+        <img
+          src="https://i.imgur.com/2df8NTm.png"
+          alt="O Cortiço"
+        >
+
+      </div>
+
+      <div class="book-info">
+
+        <h3>O Cortiço</h3>
+
+        <p>Aluísio Azevedo</p>
+
+      </div>
+
+    </article>
+
+
+    <!-- LIVRO 5 -->
+
+    <article class="book-card">
+
+      <div class="book-cover">
+
+        <img
+          src="https://i.imgur.com/DQ4eCw5.png"
+          alt="A Escrava Isaura"
+        >
+
+      </div>
+
+      <div class="book-info">
+
+        <h3>A Escrava Isaura</h3>
+
+        <p>Bernardo Guimarães</p>
+
+      </div>
+
+    </article>
+
+
+    <!-- LIVRO 6 -->
+
+    <article class="book-card">
+
+      <div class="book-cover">
+
+        <img
+          src="https://i.imgur.com/NBarucV.png"
+          alt="Triste Fim de Policarpo Quaresma"
+        >
+
+      </div>
+
+      <div class="book-info">
+
+        <h3>Triste Fim de Policarpo Quaresma</h3>
+
+        <p>Lima Barreto</p>
+
+      </div>
+
+    </article>
+
+
+    <!-- LIVRO 7 -->
+
+    <article class="book-card">
+
+      <div class="book-cover">
+
+        <img
+          src="https://i.imgur.com/MOe5xOt.png"
+          alt="O Primo Basílio"
+        >
+
+      </div>
+
+      <div class="book-info">
+
+        <h3>O Primo Basílio</h3>
+
+        <p>Eça de Queirós</p>
+
+      </div>
+
+    </article>
+
+
+    <!-- LIVRO 8 -->
+
+    <article class="book-card">
+
+      <div class="book-cover">
+
+        <img
+          src="https://i.imgur.com/AuyukTh.png"
+          alt="A Moreninha"
+        >
+
+      </div>
+
+      <div class="book-info">
+
+        <h3>A Moreninha</h3>
+
+        <p>Joaquim Manuel de Macedo</p>
+
+      </div>
+
+    </article>
+
+
+  </div>
+
+</div>
+
+</section>
+
+
+
+<!-- =====================================================
+     EXPLAIN
+===================================================== -->
+
+<section class="section explain">
+
+<div class="container">
+
+  <span class="eyebrow">
+    Uma coleção completa
+  </span>
+
+  <h2 class="title">
+    Literatura, filosofia, poesia,
+    romances e muito mais
+  </h2>
+
+  <p class="subtitle">
+    O acervo reúne obras conhecidas de autores
+    brasileiros e internacionais para você explorar
+    diferentes tipos de leitura em um único Pack.
+  </p>
+
+
+  <div class="explain-block">
+
+    <div class="explain-text">
+
+      <h3>
+        Uma biblioteca para diferentes momentos
+      </h3>
+
+      <p>
+        Encontre romances, clássicos,
+        obras filosóficas, poesia, contos
+        e títulos tradicionais da literatura.
+      </p>
+
+    </div>
+
+
+    <div class="explain-text">
+
+      <h3>
+        Baixe apenas o que quiser ler
+      </h3>
+
+      <p>
+        Você não precisa armazenar centenas de arquivos
+        de uma só vez.
+        Acesse o acervo e baixe somente os títulos desejados.
+      </p>
+
+    </div>
+
+  </div>
+
+</div>
+
+</section>
+
+
+
+<!-- =====================================================
+     PROCESS
+===================================================== -->
+
+<section class="section process">
+
+<div class="container">
+
+  <span class="eyebrow">
+    Como funciona
+  </span>
+
+  <h2 class="title">
+    Da compra ao download dos seus livros
+  </h2>
+
+  <p class="subtitle">
+    Todo o processo pode ser feito pelo celular
+    de forma simples.
+  </p>
+
+
+  <div class="steps">
+
+
+    <div class="step">
+
+      <div class="step-number">
+        1
+      </div>
+
+      <div>
+
+        <h3>Finalize sua compra</h3>
+
+        <p>
+          Clique no botão de compra e conclua
+          o pedido pelo checkout.
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <div class="step">
+
+      <div class="step-number">
+        2
+      </div>
+
+      <div>
+
+        <h3>Pagamento confirmado</h3>
+
+        <p>
+          Após a confirmação, seu pedido
+          fica pronto para receber o acesso.
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <div class="step">
+
+      <div class="step-number">
+        3
+      </div>
+
+      <div>
+
+        <h3>Receba o link</h3>
+
+        <p>
+          Você recebe o link utilizado
+          para entrar no acervo.
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <div class="step">
+
+      <div class="step-number">
+        4
+      </div>
+
+      <div>
+
+        <h3>Escolha e baixe</h3>
+
+        <p>
+          Escolha o livro desejado
+          e faça o download em PDF.
+        </p>
+
+      </div>
+
+    </div>
+
+
+  </div>
+
+</div>
+
+</section>
+
+
+
+<!-- =====================================================
+     ACCESS
+===================================================== -->
+
+<section class="section access">
+
+<div class="container">
+
+  <span class="eyebrow">
+    Como você recebe
+  </span>
+
+  <h2 class="title">
+    Seus livros ficam organizados em um único acesso
+  </h2>
+
+  <p class="subtitle">
+    Você não precisa receber centenas de arquivos
+    separados no celular.
+  </p>
+
+
+  <div class="access-panel">
+
+    <h3>
+      Você receberá um link para acessar o acervo
+    </h3>
+
+    <p>
+      Ao entrar nesse link, encontrará os títulos
+      disponíveis e poderá selecionar os livros
+      que deseja baixar.
+    </p>
+
+    <p>
+      Dessa forma você mantém seus arquivos organizados
+      e baixa somente aquilo que realmente quiser ler.
+    </p>
+
+
+    <div class="access-details">
+
+
+      <div class="access-row">
+
+        <strong>Celular</strong>
+
+        <span>
+          Acesse pelo navegador e faça seus downloads.
+        </span>
+
+      </div>
+
+
+      <div class="access-row">
+
+        <strong>Tablet</strong>
+
+        <span>
+          Aproveite uma tela maior para leitura.
+        </span>
+
+      </div>
+
+
+      <div class="access-row">
+
+        <strong>Computador</strong>
+
+        <span>
+          Organize seus PDFs como preferir.
+        </span>
+
+      </div>
+
+
+      <div class="access-row">
+
+        <strong>PDF</strong>
+
+        <span>
+          Utilize qualquer leitor compatível
+          com esse formato.
+        </span>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+</div>
+
+</section>
+
+
+
+<!-- =====================================================
+     PAYMENT
+===================================================== -->
+
+<section class="section payment-info">
+
+<div class="container">
+
+  <span class="eyebrow">
+    Sobre o pagamento
+  </span>
+
+  <h2 class="title">
+    A compra é finalizada pelo checkout
+  </h2>
+
+  <p class="subtitle">
+    Ao clicar no botão de compra,
+    você será direcionado para a página
+    onde poderá concluir seu pedido.
+  </p>
+
+
+  <div class="payment-box">
+
+    <h3>
+      Como finalizar sua compra
+    </h3>
+
+    <p>
+      Basta seguir as informações exibidas
+      na página de pagamento.
+    </p>
+
+
+    <div class="payment-flow">
+
+      <div class="payment-row">
+
+        <strong>1.</strong>
+
+        <span>
+          Acesse o checkout.
+        </span>
+
+      </div>
+
+
+      <div class="payment-row">
+
+        <strong>2.</strong>
+
+        <span>
+          Informe os dados solicitados.
+        </span>
+
+      </div>
+
+
+      <div class="payment-row">
+
+        <strong>3.</strong>
+
+        <span>
+          Escolha a forma de pagamento disponível.
+        </span>
+
+      </div>
+
+
+      <div class="payment-row">
+
+        <strong>4.</strong>
+
+        <span>
+          Finalize sua compra.
+        </span>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CONFIDENCE
+===================================================== -->
+
+<section class="section confidence">
+
+<div class="container">
+
+  <span class="eyebrow">
+    Antes de comprar
+  </span>
+
+  <h2 class="title">
+    Saiba exatamente o que está incluso
+  </h2>
+
+  <p class="subtitle">
+    O Pack é um produto digital.
+    Sem mensalidade e sem envio físico.
+  </p>
+
+
+  <div class="confidence-grid">
+
+
+    <div class="confidence-item">
+
+      <strong>
+        Produto digital
+      </strong>
+
+      <span>
+        Nenhum livro físico será enviado.
+      </span>
+
+    </div>
+
+
+    <div class="confidence-item">
+
+      <strong>
+        +300 livros
+      </strong>
+
+      <span>
+        Títulos em formato PDF.
+      </span>
+
+    </div>
+
+
+    <div class="confidence-item">
+
+      <strong>
+        Pagamento único
+      </strong>
+
+      <span>
+        Sem mensalidade.
+      </span>
+
+    </div>
+
+
+    <div class="confidence-item">
+
+      <strong>
+        Acesso vitalício
+      </strong>
+
+      <span>
+        Mantenha seu acesso adquirido.
+      </span>
+
+    </div>
+
+
+  </div>
+
+</div>
+
+</section>
+
+
+
+<!-- =====================================================
+     OFFER
+===================================================== -->
+
+<section
+  class="section offer"
+  id="oferta"
+>
+
+<div class="container">
+
+  <div class="offer-card">
+
+    <div class="offer-top">
+      Pack Completo
+    </div>
+
+    <h2>
+      Mais de 300 livros digitais em PDF
+    </h2>
+
+    <p class="offer-description">
+      Um único pagamento para acessar
+      o acervo completo.
+    </p>
+
+
+    <div class="price-label">
+      Hoje por apenas
+    </div>
+
+
+    <div class="price">
+
+      <small>R$</small>14,90
+
+    </div>
+
+
+    <div class="single-payment">
+      Pagamento único • Sem mensalidade
+    </div>
+
+
+    <div class="offer-items">
+
+      <div class="offer-item">
+        Mais de 300 livros digitais
+      </div>
+
+      <div class="offer-item">
+        Arquivos em PDF
+      </div>
+
+      <div class="offer-item">
+        Link para acessar o acervo
+      </div>
+
+      <div class="offer-item">
+        Download individual dos títulos
+      </div>
+
+      <div class="offer-item">
+        Celular, tablet ou computador
+      </div>
+
+      <div class="offer-item">
+        Acesso vitalício
+      </div>
+
+    </div>
+
+
+    <a
+      href="https://checkout.omegapayments.com.br/checkout/cmu3lfey3017601py96vxii93?offer=5UB30AH"
+      class="cta"
+    >
+      QUERO MEU ACESSO POR R$ 14,90
+    </a>
+
+
+  </div>
+
+</div>
+
+</section>
+
+
+
+<!-- =====================================================
+     AFTER PAYMENT
+===================================================== -->
+
+<section class="section after">
+
+<div class="container">
+
+  <span class="eyebrow">
+    Depois da compra
+  </span>
+
+  <h2 class="title">
+    O que acontece após o pagamento?
+  </h2>
+
+  <p class="subtitle">
+    Veja exatamente o caminho até
+    os seus primeiros downloads.
+  </p>
+
+
+  <div class="timeline">
+
+
+    <div class="timeline-item">
+
+      <h3>
+        Pagamento confirmado
+      </h3>
+
+      <p>
+        Sua compra é identificada.
+      </p>
+
+    </div>
+
+
+    <div class="timeline-item">
+
+      <h3>
+        Receba as instruções
+      </h3>
+
+      <p>
+        Você recebe as informações
+        necessárias para entrar no acesso.
+      </p>
+
+    </div>
+
+
+    <div class="timeline-item">
+
+      <h3>
+        Entre no acervo
+      </h3>
+
+      <p>
+        Utilize o link fornecido
+        para visualizar os livros.
+      </p>
+
+    </div>
+
+
+    <div class="timeline-item">
+
+      <h3>
+        Faça seus downloads
+      </h3>
+
+      <p>
+        Escolha o título e baixe o PDF.
+      </p>
+
+    </div>
+
+
+  </div>
+
+</div>
+
+</section>
+
+
+
+<!-- =====================================================
+     SUPPORT
+===================================================== -->
+
+<section class="section support">
+
+<div class="container">
+
+  <div class="support-box">
+
+    <h3>
+      Precisa de ajuda para acessar?
+    </h3>
+
+    <p>
+      Caso tenha alguma dificuldade com o acesso,
+      utilize o canal de suporte informado
+      junto às instruções da sua compra.
+    </p>
+
+  </div>
+
+</div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FEEDBACKS — EXEMPLOS ILUSTRATIVOS
+===================================================== -->
+<section class="section feedbacks">
+<div class="container">
+  <span class="eyebrow">Feedbacks sobre a experiência</span>
+  <h2 class="title">O que leitores podem valorizar no Pack</h2>
+  <p class="subtitle">Feedbacks</p>
+  <div class="feedback-grid">
+    <article class="feedback-card">
+      <div class="feedback-head"><div class="feedback-name">Mariana S.</div><div class="feedback-date">16/09</div></div>
+      <div class="feedback-stars">★★★★★</div>
+      <p class="feedback-text">Gostei muito da organização. Foi fácil encontrar os títulos e baixar os PDFs que eu queria ler primeiro.</p>
+      <span class="feedback-tag">Produto recebido</span>
+    </article>
+    <article class="feedback-card">
+      <div class="feedback-head"><div class="feedback-name">Camila R.</div><div class="feedback-date">16/09</div></div>
+      <div class="feedback-stars">★★★★★</div>
+      <p class="feedback-text">Tem bastante variedade e achei prático poder escolher os livros sem precisar baixar tudo de uma vez.</p>
+      <span class="feedback-tag">Produto recebido</span>
+    </article>
+    <article class="feedback-card">
+      <div class="feedback-head"><div class="feedback-name">Juliana M.</div><div class="feedback-date">17/09</div></div>
+      <div class="feedback-stars">★★★★★</div>
+      <p class="feedback-text">O acesso foi simples e consegui abrir os arquivos pelo celular sem dificuldade. Gostei bastante da proposta.</p>
+      <span class="feedback-tag">Produto recebido</span>
+    </article>
+    <article class="feedback-card">
+      <div class="feedback-head"><div class="feedback-name">Rafael A.</div><div class="feedback-date">16/09</div></div>
+      <div class="feedback-stars">★★★★★</div>
+      <p class="feedback-text">Achei bom pelo custo-benefício. Tem muitos clássicos conhecidos e o acesso aos arquivos ficou bem direto.</p>
+      <span class="feedback-tag">Produto recebido</span>
+    </article>
+    <article class="feedback-card">
+      <div class="feedback-head"><div class="feedback-name">Lucas F.</div><div class="feedback-date">17/09</div></div>
+      <div class="feedback-stars">★★★★★</div>
+      <p class="feedback-text">Gostei de ter vários títulos em um só lugar. Já salvei alguns PDFs para ler durante a semana.</p>
+      <span class="feedback-tag">Produto recebido</span>
+    </article>
+    <article class="feedback-card">
+      <div class="feedback-head"><div class="feedback-name">Bruno C.</div><div class="feedback-date">17/09</div></div>
+      <div class="feedback-stars">★★★★★</div>
+      <p class="feedback-text">A proposta é simples e funciona bem: escolhi o livro, baixei em PDF e consegui começar a leitura na hora.</p>
+      <span class="feedback-tag">Produto recebido</span>
+    </article>
+  </div>
+</div>
+</section>
+
+<!-- =====================================================
+     FAQ — NOTHING BELOW
+===================================================== -->
+
+<section class="section faq-section">
+
+<div class="container">
+
+  <span class="eyebrow">
+    Dúvidas frequentes
+  </span>
+
+  <h2 class="title">
+    Antes de finalizar sua compra
+  </h2>
+
+  <p class="subtitle">
+    Confira as principais informações
+    sobre o Pack.
+  </p>
+
+
+  <div class="faq">
+
+
+    <div class="faq-item">
+
+      <button class="faq-question">
+
+        Os livros são físicos?
+
+        <span>+</span>
+
+      </button>
+
+      <div class="faq-answer">
+
+        <p>
+          Não. O Pack é totalmente digital.
+          Os livros são disponibilizados em PDF.
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <div class="faq-item">
+
+      <button class="faq-question">
+
+        Quantos livros estão disponíveis?
+
+        <span>+</span>
+
+      </button>
+
+      <div class="faq-answer">
+
+        <p>
+          O Pack possui mais de 300 títulos digitais.
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <div class="faq-item">
+
+      <button class="faq-question">
+
+        Como recebo os livros?
+
+        <span>+</span>
+
+      </button>
+
+      <div class="faq-answer">
+
+        <p>
+          Após a confirmação da compra,
+          você recebe o link utilizado
+          para acessar os livros disponíveis.
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <div class="faq-item">
+
+      <button class="faq-question">
+
+        Recebo todos os arquivos de uma vez?
+
+        <span>+</span>
+
+      </button>
+
+      <div class="faq-answer">
+
+        <p>
+          Você recebe acesso ao acervo
+          e escolhe quais livros deseja baixar.
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <div class="faq-item">
+
+      <button class="faq-question">
+
+        Posso acessar pelo celular?
+
+        <span>+</span>
+
+      </button>
+
+      <div class="faq-answer">
+
+        <p>
+          Sim. O conteúdo pode ser acessado
+          pelo celular, tablet ou computador compatível.
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <div class="faq-item">
+
+      <button class="faq-question">
+
+        Existe mensalidade?
+
+        <span>+</span>
+
+      </button>
+
+      <div class="faq-answer">
+
+        <p>
+          Não. O pagamento de R$ 14,90
+          é realizado uma única vez.
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <div class="faq-item">
+
+      <button class="faq-question">
+
+        O acesso é vitalício?
+
+        <span>+</span>
+
+      </button>
+
+      <div class="faq-answer">
+
+        <p>
+          Sim. A oferta inclui acesso vitalício
+          ao conteúdo adquirido.
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <div class="faq-item">
+
+      <button class="faq-question">
+
+        E se eu tiver dificuldade?
+
+        <span>+</span>
+
+      </button>
+
+      <div class="faq-answer">
+
+        <p>
+          Utilize o suporte informado
+          junto às instruções da compra.
+        </p>
+
+      </div>
+
+    </div>
+
+
+  </div>
+
+</div>
+
+</section>
+
+
+
+<!-- MOBILE CTA -->
+
+<div class="sticky">
+
+  <a
+    href="https://checkout.omegapayments.com.br/checkout/cmu3lfey3017601py96vxii93?offer=5UB30AH"
+    class="cta"
+  >
+    ACESSAR O PACK — R$ 14,90
+  </a>
+
+</div>
+
+
+
+<script>
+
+/* FAQ */
+
+document
+.querySelectorAll(".faq-question")
+.forEach(button=>{
+
+  button.addEventListener("click",()=>{
+
+    const item=
+    button.closest(".faq-item");
+
+    const symbol=
+    button.querySelector("span");
+
+    item.classList.toggle("open");
+
+    symbol.textContent=
+    item.classList.contains("open")
+    ? "−"
+    : "+";
+
+  });
+
+});
+
+
+/* BOOK TOUCH */
+
+document
+.querySelectorAll(".book-card")
+.forEach(card=>{
+
+  card.addEventListener(
+    "pointerdown",
+    ()=>{
+      card.classList.add("active-touch");
+    }
+  );
+
+  const remove=()=>{
+
+    setTimeout(()=>{
+
+      card.classList.remove("active-touch");
+
+    },220);
+
+  };
+
+  card.addEventListener(
+    "pointerup",
+    remove
+  );
+
+  card.addEventListener(
+    "pointercancel",
+    remove
+  );
+
+  card.addEventListener(
+    "pointerleave",
+    remove
+  );
+
+});
+
+</script>
+
+</body>
+</html>
